@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="UMS.index" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ganpat University</title>
+		<link rel="icon" href="images/ict.png" type="images/png" sizes="50x50">
+        <link rel="stylesheet" type="text/css" href="div.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div class="ganpat">
+	    
+        <h1><center>Ganpat University</center></h1>
+		<h2><center>Institute Of Computer Technology</center></h2>
+	</div>	
+	
+    <div class="nav">
+	<ul>
+		<li><a href="contactus.aspx">Contact Us</a></li>
+		<li><a href="login.aspx">Log In</a></li>
+		<li><a href="aboutus.aspx">About Us</a></li>
+		<li><a href="home.aspx">Home</a></li>	
+	</ul>
+
+	</div>  
+	<div class="row">
+	<div class="col left">
+	<ul>
+	<li><a href="photo.html">Photo Gallery</a></li>
+	<li><a href="video.html">Video Gallery</a></li>
+	<li><a href="registrationform.html">Registration Form</a></li>
+	</ul>
+	</div>
+	
+	<div class="col middle">
+		    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+	</div>
+	</div>
+    <div  class="footer">
+        <h5>&copy2020 All Rights Reserved.</h2>
+    </div>
+	
+   
+</body>
+</html>
