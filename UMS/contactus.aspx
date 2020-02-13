@@ -5,7 +5,8 @@
 body 
 * {box-sizing: border-box;}
 
-input[type=text], select, textarea {
+input[type=text], select, textarea 
+{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
